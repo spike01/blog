@@ -1,4 +1,4 @@
-baseurl = "http://spike01.com/"
+baseurl = "https://spike01.com/"
 languageCode = "en-us"
 theme = "hello-friend-ng"
 
