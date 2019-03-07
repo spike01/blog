@@ -27,7 +27,7 @@ theme = "hello-friend-ng"
     readOtherPosts = "Read other posts"
 
     [languages.en.params.logo]
-      logoText = "[spike01.com]"
+      logoText = "spike01:~ spike$"
       logoHomeLink = "/"
     # or
     #
