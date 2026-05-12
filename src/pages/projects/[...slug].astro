@@ -65,3 +65,10 @@ const { Content } = await project.render();
     </article>
   </Container>
 </PageLayout>
+
+<script is:inline define:vars={{ title: project.data.title, slug: project.slug }}>
+  function trackProjectViewed() {
+    window.posthog?.capture("project_viewed", { title: title, slug: slug });
+  }
+  document.addEventListener("astro:page-load", trackProjectViewed);
+</script>

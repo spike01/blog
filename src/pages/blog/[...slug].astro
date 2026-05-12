@@ -47,3 +47,10 @@ const { Content } = await post.render();
     </article>
   </Container>
 </PageLayout>
+
+<script is:inline define:vars={{ title: post.data.title, slug: post.slug }}>
+  function trackBlogPostViewed() {
+    window.posthog?.capture("blog_post_viewed", { title: title, slug: slug });
+  }
+  document.addEventListener("astro:page-load", trackBlogPostViewed);
+</script>
