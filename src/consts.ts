@@ -3,35 +3,39 @@ import type { Site, Metadata, Socials } from "@types";
 export const SITE: Site = {
   NAME: "spike01.com",
   EMAIL: "spike zero one at gmail dot com",
-  NUM_POSTS_ON_HOMEPAGE: 3,
+  NUM_POSTS_ON_HOMEPAGE: 10,
   NUM_WORKS_ON_HOMEPAGE: 3,
   NUM_PROJECTS_ON_HOMEPAGE: 3,
 };
 
 export const HOME: Metadata = {
   TITLE: "Home",
-  DESCRIPTION: "Astro Nano is a minimal and lightweight blog and portfolio.",
+  DESCRIPTION: "Putting the liability in reliability",
 };
 
 export const BLOG: Metadata = {
   TITLE: "Blog",
-  DESCRIPTION: "A collection of articles on topics I am passionate about.",
+  DESCRIPTION: "Half-baked thoughts",
 };
 
 export const WORK: Metadata = {
   TITLE: "Work",
-  DESCRIPTION: "Where I have worked and what I have done.",
+  DESCRIPTION: "Production systems I have known and loved",
 };
 
 export const PROJECTS: Metadata = {
   TITLE: "Projects",
-  DESCRIPTION: "A collection of my projects, with links to repositories and demos.",
+  DESCRIPTION: "Weird and wonderful",
 };
 
 export const SOCIALS: Socials = [
   { 
-    NAME: "twitter-x",
-    HREF: "https://twitter.com/spikelindsey",
+    NAME: "bsky",
+    HREF: "https://bsky.app/profile/spike01.bsky.social",
+  },
+  {
+    NAME: "mastodon",
+    HREF: "https://hachyderm.io/@spike01",
   },
   { 
     NAME: "github",
