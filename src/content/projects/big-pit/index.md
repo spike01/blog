@@ -2,7 +2,7 @@
 title: "BIG PIT - Bend in the Rift"
 description: "BIG PIT's first album"
 date: "Feb 10 2024"
-demoURL: "https://bigpitnoise.bandcamp.com/album/bend-in-the-rift"
+linkURL: "https://bigpitnoise.bandcamp.com/album/bend-in-the-rift"
 ---
 ![Bend in the Rift album cover](https://f4.bcbits.com/img/a2323041685_10.jpg)
 
